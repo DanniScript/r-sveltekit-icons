@@ -1,0 +1,27 @@
+{
+  "name": "r-icons",
+  "displayName": "r-icons",
+  "description": "r-icons... our icons, your icons, seti icons, svelte icons",
+  "version": "0.0.1",
+  "categories": [
+    "Other"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "@types/vscode": "^1.76.0"
+  },
+  "main": "./src/extension.js",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "r-icons.helloWorld",
+        "title": "Hello World"
+      }
+    ]
+  }
+}
