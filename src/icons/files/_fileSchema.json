@@ -1,0 +1,62 @@
+{
+  "iconDefinitions": {
+    "_file_default": {
+      "iconPath": "./icons/files/default.svg"
+    },
+    "_file_default_light": {
+      "iconPath": "./icons/files/default_light.svg"
+    },
+    "_file_javascript_layout": {
+      "iconPath": "./icons/files/javascript_layout.svg"
+    },
+    "_file_javascript_page": {
+      "iconPath": "./icons/files/javascript_page.svg"
+    },
+    "_file_svelte_error": {
+      "iconPath": "./icons/files/svelte_error.svg"
+    },
+    "_file_svelte_layout_server": {
+      "iconPath": "./icons/files/svelte_layout_server.svg"
+    },
+    "_file_svelte_layout": {
+      "iconPath": "./icons/files/svelte_layout.svg"
+    },
+    "_file_svelte_page_server": {
+      "iconPath": "./icons/files/svelte_page_server.svg"
+    },
+    "_file_svelte_page": {
+      "iconPath": "./icons/files/svelte_page.svg"
+    },
+    "_file_svelte_server": {
+      "iconPath": "./icons/files/svelte_server.svg"
+    },
+    "_file_svelte": {
+      "iconPath": "./icons/files/svelte.svg"
+    },
+    "_file_typescript_layout": {
+      "iconPath": "./icons/files/typescript_layout.svg"
+    },
+    "_file_typescript_page": {
+      "iconPath": "./icons/files/typescript_page.svg"
+    }
+  },
+  "file": "_file_default",
+  "fileExtensions": {
+    "svelte": "_file_svelte"
+  },
+  "fileNames": {
+    "+error.svelte": "_file_svelte_error",
+    "+layout.server.ts": "_file_svelte_layout_server",
+    "+layout.svelte": "_file_svelte_layout",
+    "+layout.ts": "_file_typescript_layout",
+    "+layout.js": "_file_javascript_layout",
+    "+page.server.ts": "_file_svelte_page_server",
+    "+page.svelte": "_file_svelte_page",
+    "+page.ts": "_file_typescript_page",
+    "+page.js": "_file_javascript_page",
+    "+server.ts": "_file_svelte_server"
+  },
+  "light": {
+    "file": "_file_default_light"
+  }
+}

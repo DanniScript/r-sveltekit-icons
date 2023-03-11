@@ -17,6 +17,13 @@
   },
   "activationEvents": [],
   "contributes": {
+    "iconThemes": [
+      {
+        "id": "r-icons",
+        "label": "r-icons",
+        "path": "./src/r-icons-icon-theme.json"
+      }
+    ],
     "commands": [
       {
         "command": "r-icons.helloWorld",

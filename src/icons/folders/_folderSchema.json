@@ -1,0 +1,82 @@
+{
+  "iconDefinitions": {
+    "_folder_default": {
+      "iconPath": "./icons/folders/default.svg"
+    },
+    "_folder_default_open": {
+      "iconPath": "./icons/folders/default_open.svg"
+    },
+    "_folder_default_light": {
+      "iconPath": "./icons/folders/default_light.svg"
+    },
+    "_folder_default_open_light": {
+      "iconPath": "./icons/folders/default_light_open.svg"
+    },
+
+    "_folder_components": {
+      "iconPath": "./icons/folders/components.svg"
+    },
+    "_folder_components_open": {
+      "iconPath": "./icons/folders/components_open.svg"
+    },
+    "_folder_components_light": {
+      "iconPath": "./icons/folders/components_light.svg"
+    },
+    "_folder_components_open_light": {
+      "iconPath": "./icons/folders/components_open_light.svg"
+    },
+
+    "_folder_lib": {
+      "iconPath": "./icons/folders/lib.svg"
+    },
+    "_folder_lib_open": {
+      "iconPath": "./icons/folders/lib_open.svg"
+    },
+    "_folder_lib_light": {
+      "iconPath": "./icons/folders/lib_light.svg"
+    },
+    "_folder_lib_open_light": {
+      "iconPath": "./icons/folders/lib_open_light.svg"
+    },
+
+    "_folder_routes": {
+      "iconPath": "./icons/folders/routes.svg"
+    },
+    "_folder_routes_open": {
+      "iconPath": "./icons/folders/routes_open.svg"
+    },
+    "_folder_routes_light": {
+      "iconPath": "./icons/folders/routes_light.svg"
+    },
+    "_folder_routes_open_light": {
+      "iconPath": "./icons/folders/routes_open_light.svg"
+    }
+  },
+
+  "folder": "_folder_default",
+  "folderExpanded": "_folder_default_open",
+  "folderNames": {
+    "components": "_folder_components",
+    "lib": "_folder_lib",
+    "routes": "_folder_routes"
+  },
+  "folderNamesExpanded": {
+    "components": "_folder_components_open",
+    "lib": "_folder_lib_open",
+    "routes": "_folder_routes_open"
+  },
+  "light": {
+    "folder": "_folder_default_light",
+    "folderExpanded": "_folder_default_open_light",
+    "folderNames": {
+      "components": "_folder_components_light",
+      "lib": "_folder_lib_light",
+      "routes": "_folder_routes_light"
+    },
+    "folderNamesExpanded": {
+      "components": "_folder_components_open_light",
+      "lib": "_folder_lib_open_light",
+      "routes": "_folder_routes_open_light"
+    }
+  }
+}
