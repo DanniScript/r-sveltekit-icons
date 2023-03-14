@@ -1,14 +1,15 @@
 {
   "name": "r-icons",
+  "version": "0.0.1",
   "displayName": "r-icons",
   "publisher": "r-icons",
   "description": "Seti + Folders + SvelteKit",
-  "version": "0.0.1",
+  "repository": "https://github.com/Rinconx64/r-icons",
+  "license": "MIT",
+  "icon": "extension.png",
   "categories": [
     "Themes"
   ],
-  "repository": "https://github.com/Rinconx64/r-icons",
-  "license": "MIT",
   "scripts": {},
   "devDependencies": {
     "@types/node": "^18.15.0",
