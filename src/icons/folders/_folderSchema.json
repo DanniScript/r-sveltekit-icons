@@ -1,11 +1,5 @@
 {
   "iconDefinitions": {
-    "_folder_default": {
-      "iconPath": "./icons/folders/default.svg"
-    },
-    "_folder_default_open": {
-      "iconPath": "./icons/folders/default_open.svg"
-    },
     "_folder_default_light": {
       "iconPath": "./icons/folders/default_light.svg"
     },
