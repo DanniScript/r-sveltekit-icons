@@ -2,6 +2,8 @@ const seti = require('./seti/_setiSchema.json')
 
 function generateTheme() {
   return {
+    hidesExplorerArrows: 'true',
+
     // Definitions
     fonts: [...seti.fonts],
     iconDefinitions: { ...seti.iconDefinitions },

@@ -8,6 +8,8 @@ function activate() {
   const base = generateTheme()
 
   const finalTheme = {
+    hidesExplorerArrows: base.hidesExplorerArrows,
+
     // Definitions
     fonts: base.fonts,
     iconDefinitions: {
