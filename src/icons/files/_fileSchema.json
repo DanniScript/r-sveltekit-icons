@@ -47,14 +47,17 @@
   "fileNames": {
     "+error.svelte": "_file_svelte_error",
     "+layout.server.ts": "_file_svelte_layout_server",
+    "+layout.server.js": "_file_svelte_layout_server",
     "+layout.svelte": "_file_svelte_layout",
     "+layout.ts": "_file_typescript_layout",
     "+layout.js": "_file_javascript_layout",
     "+page.server.ts": "_file_svelte_page_server",
+    "+page.server.js": "_file_svelte_page_server",
     "+page.svelte": "_file_svelte_page",
     "+page.ts": "_file_typescript_page",
     "+page.js": "_file_javascript_page",
-    "+server.ts": "_file_svelte_server"
+    "+server.ts": "_file_svelte_server",
+    "+server.js": "_file_svelte_server"
   },
   "light": {
     "file": "_file_default_light"
