@@ -1,11 +1,10 @@
-const vscode = require('vscode')
 const fs = require('fs')
 const path = require('path')
 const { generateTheme } = require('./icons/themes')
 const files = require('./icons/files/_fileSchema.json')
 const folders = require('./icons/folders/_folderSchema.json')
 
-function activate(context) {
+function activate() {
   const base = generateTheme()
 
   const finalTheme = {
@@ -45,15 +44,6 @@ function activate(context) {
     path.join(__dirname, './r-icons-icon-theme.json'),
     JSON.stringify(finalTheme)
   )
-
-  let disposable = vscode.commands.registerCommand(
-    'r-icons.helloWorld',
-    function () {
-      vscode.window.showInformationMessage('Hello World from r-icons!')
-    }
-  )
-
-  context.subscriptions.push(disposable)
 }
 
 function deactivate() {}

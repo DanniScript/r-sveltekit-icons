@@ -44,6 +44,13 @@
     },
     "_folder_routes_open_light": {
       "iconPath": "./icons/folders/routes_open_light.svg"
+    },
+
+    "_folder_sub_components": {
+      "iconPath": "./icons/folders/sub_components.svg"
+    },
+    "_folder_sub_components_open": {
+      "iconPath": "./icons/folders/sub_components_open.svg"
     }
   },
 
@@ -52,12 +59,14 @@
   "folderNames": {
     "components": "_folder_components",
     "lib": "_folder_lib",
-    "routes": "_folder_routes"
+    "routes": "_folder_routes",
+    "_components": "_folder_sub_components"
   },
   "folderNamesExpanded": {
     "components": "_folder_components_open",
     "lib": "_folder_lib_open",
-    "routes": "_folder_routes_open"
+    "routes": "_folder_routes_open",
+    "_components": "_folder_sub_components_open"
   },
   "light": {
     "folder": "_folder_default_light",

@@ -1,6 +1,6 @@
 {
   "name": "r-icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "displayName": "r-icons",
   "publisher": "Rinconx64",
   "description": "Seti + Folders + SvelteKit",
@@ -28,12 +28,6 @@
         "id": "r-icons",
         "label": "r-icons",
         "path": "./src/r-icons-icon-theme.json"
-      }
-    ],
-    "commands": [
-      {
-        "command": "r-icons.helloWorld",
-        "title": "Hello World"
       }
     ]
   }
