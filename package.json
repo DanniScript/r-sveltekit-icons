@@ -6,7 +6,7 @@
   "description": "Seti + Folders + SvelteKit",
   "repository": "https://github.com/Rinconx64/r-icons",
   "license": "MIT",
-  "icon": "extension.png",
+  "icon": "resorces/extension.png",
   "categories": [
     "Themes"
   ],
