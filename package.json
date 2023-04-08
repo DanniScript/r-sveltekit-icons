@@ -20,7 +20,7 @@
     "vscode": "^1.76.0"
   },
   "activationEvents": [
-    "*"
+    "onStartupFinished"
   ],
   "contributes": {
     "iconThemes": [
