@@ -26,6 +26,19 @@
       "iconPath": "./icons/folders/components_open_light.svg"
     },
 
+    "_folder_sub_components": {
+      "iconPath": "./icons/folders/sub_components.svg"
+    },
+    "_folder_sub_components_open": {
+      "iconPath": "./icons/folders/sub_components_open.svg"
+    },
+    "_folder_sub_components_light": {
+      "iconPath": "./icons/folders/sub_components.svg"
+    },
+    "_folder_sub_components_open_light": {
+      "iconPath": "./icons/folders/sub_components_open.svg"
+    },
+
     "_folder_lib": {
       "iconPath": "./icons/folders/lib.svg"
     },
@@ -39,6 +52,19 @@
       "iconPath": "./icons/folders/lib_open_light.svg"
     },
 
+    "_folder_sub_lib": {
+      "iconPath": "./icons/folders/sub_lib.svg"
+    },
+    "_folder_sub_lib_open": {
+      "iconPath": "./icons/folders/sub_lib_open.svg"
+    },
+    "_folder_sub_lib_light": {
+      "iconPath": "./icons/folders/sub_lib.svg"
+    },
+    "_folder_sub_lib_open_light": {
+      "iconPath": "./icons/folders/sub_lib_open.svg"
+    },
+
     "_folder_routes": {
       "iconPath": "./icons/folders/routes.svg"
     },
@@ -50,42 +76,249 @@
     },
     "_folder_routes_open_light": {
       "iconPath": "./icons/folders/routes_open_light.svg"
-    },
-
-    "_folder_sub_components": {
-      "iconPath": "./icons/folders/sub_components.svg"
-    },
-    "_folder_sub_components_open": {
-      "iconPath": "./icons/folders/sub_components_open.svg"
     }
   },
 
   "folder": "_folder_default",
   "folderExpanded": "_folder_default_open",
   "folderNames": {
-    "components": "_folder_components",
-    "lib": "_folder_lib",
     "routes": "_folder_routes",
-    "_components": "_folder_sub_components"
+
+    "components": "_folder_components",
+    "Alert": "_folder_sub_components",
+    "Icon": "_folder_sub_components",
+    "Input": "_folder_sub_components",
+    "Menu": "_folder_sub_components",
+    "Note": "_folder_sub_components",
+    "Overlay": "_folder_sub_components",
+    "Panel": "_folder_sub_components",
+    "Selector": "_folder_sub_components",
+    "Toast": "_folder_sub_components",
+    "Toggle": "_folder_sub_components",
+    "Accordion": "_folder_sub_components",
+    "Dialog": "_folder_sub_components",
+    "AlertDialog": "_folder_sub_components",
+    "Button": "_folder_sub_components",
+    "Calendar": "_folder_sub_components",
+    "Avatar": "_folder_sub_components",
+    "Checkbox": "_folder_sub_components",
+    "Collapsible": "_folder_sub_components",
+    "Combobox": "_folder_sub_components",
+    "ContextMenu": "_folder_sub_components",
+    "DatePicker": "_folder_sub_components",
+    "Dropdown": "_folder_sub_components",
+    "Label": "_folder_sub_components",
+    "Link": "_folder_sub_components",
+    "Menubar": "_folder_sub_components",
+    "Select": "_folder_sub_components",
+    "Separator": "_folder_sub_components",
+    "Slider": "_folder_sub_components",
+    "Switch": "_folder_sub_components",
+    "Tabs": "_folder_sub_components",
+    "Toolbar": "_folder_sub_components",
+    "Tooltip": "_folder_sub_components",
+    "AspectRadio": "_folder_sub_components",
+    "Badge": "_folder_sub_components",
+    "Breadcrumb": "_folder_sub_components",
+    "Card": "_folder_sub_components",
+    "Carousel": "_folder_sub_components",
+    "Command": "_folder_sub_components",
+    "Drawer": "_folder_sub_components",
+    "Form": "_folder_sub_components",
+    "Pagination": "_folder_sub_components",
+    "Table": "_folder_sub_components",
+    "Sonner": "_folder_sub_components",
+
+    "lib": "_folder_lib",
+    "actions": "_folder_sub_lib",
+    "assets": "_folder_sub_lib",
+    "stores": "_folder_sub_lib",
+    "transitions": "_folder_sub_lib",
+    "types": "_folder_sub_lib",
+    "utils": "_folder_sub_lib",
+    "validation": "_folder_sub_lib",
+    "models": "_folder_sub_lib",
+    "paraglide": "_folder_sub_lib"
   },
   "folderNamesExpanded": {
-    "components": "_folder_components_open",
-    "lib": "_folder_lib_open",
     "routes": "_folder_routes_open",
-    "_components": "_folder_sub_components_open"
+
+    "components": "_folder_components_open",
+    "Alert": "_folder_sub_components_open",
+    "Icon": "_folder_sub_components_open",
+    "Input": "_folder_sub_components_open",
+    "Menu": "_folder_sub_components_open",
+    "Note": "_folder_sub_components_open",
+    "Overlay": "_folder_sub_components_open",
+    "Panel": "_folder_sub_components_open",
+    "Selector": "_folder_sub_components_open",
+    "Toast": "_folder_sub_components_open",
+    "Toggle": "_folder_sub_components_open",
+    "Accordion": "_folder_sub_components_open",
+    "Dialog": "_folder_sub_components_open",
+    "AlertDialog": "_folder_sub_components_open",
+    "Button": "_folder_sub_components_open",
+    "Calendar": "_folder_sub_components_open",
+    "Avatar": "_folder_sub_components_open",
+    "Checkbox": "_folder_sub_components_open",
+    "Collapsible": "_folder_sub_components_open",
+    "Combobox": "_folder_sub_components_open",
+    "ContextMenu": "_folder_sub_components_open",
+    "DatePicker": "_folder_sub_components_open",
+    "Dropdown": "_folder_sub_components_open",
+    "Label": "_folder_sub_components_open",
+    "Link": "_folder_sub_components_open",
+    "Menubar": "_folder_sub_components_open",
+    "Select": "_folder_sub_components_open",
+    "Separator": "_folder_sub_components_open",
+    "Slider": "_folder_sub_components_open",
+    "Switch": "_folder_sub_components_open",
+    "Tabs": "_folder_sub_components_open",
+    "Toolbar": "_folder_sub_components_open",
+    "Tooltip": "_folder_sub_components_open",
+    "AspectRadio": "_folder_sub_components_open",
+    "Badge": "_folder_sub_components_open",
+    "Breadcrumb": "_folder_sub_components_open",
+    "Card": "_folder_sub_components_open",
+    "Carousel": "_folder_sub_components_open",
+    "Command": "_folder_sub_components_open",
+    "Drawer": "_folder_sub_components_open",
+    "Form": "_folder_sub_components_open",
+    "Pagination": "_folder_sub_components_open",
+    "Table": "_folder_sub_components_open",
+    "Sonner": "_folder_sub_components_open",
+
+    "lib": "_folder_lib_open",
+    "actions": "_folder_sub_lib_open",
+    "assets": "_folder_sub_lib_open",
+    "stores": "_folder_sub_lib_open",
+    "transitions": "_folder_sub_lib_open",
+    "types": "_folder_sub_lib_open",
+    "utils": "_folder_sub_lib_open",
+    "validation": "_folder_sub_lib_open",
+    "models": "_folder_sub_lib_open",
+    "paraglide": "_folder_sub_lib_open"
   },
   "light": {
     "folder": "_folder_default_light",
     "folderExpanded": "_folder_default_open_light",
     "folderNames": {
+      "routes": "_folder_routes_light",
+
       "components": "_folder_components_light",
+      "Alert": "_folder_sub_components_light",
+      "Icon": "_folder_sub_components_light",
+      "Input": "_folder_sub_components_light",
+      "Menu": "_folder_sub_components_light",
+      "Note": "_folder_sub_components_light",
+      "Overlay": "_folder_sub_components_light",
+      "Panel": "_folder_sub_components_light",
+      "Selector": "_folder_sub_components_light",
+      "Toast": "_folder_sub_components_light",
+      "Toggle": "_folder_sub_components_light",
+      "Accordion": "_folder_sub_components_light",
+      "Dialog": "_folder_sub_components_light",
+      "AlertDialog": "_folder_sub_components_light",
+      "Button": "_folder_sub_components_light",
+      "Calendar": "_folder_sub_components_light",
+      "Avatar": "_folder_sub_components_light",
+      "Checkbox": "_folder_sub_components_light",
+      "Collapsible": "_folder_sub_components_light",
+      "Combobox": "_folder_sub_components_light",
+      "ContextMenu": "_folder_sub_components_light",
+      "DatePicker": "_folder_sub_components_light",
+      "Dropdown": "_folder_sub_components_light",
+      "Label": "_folder_sub_components_light",
+      "Link": "_folder_sub_components_light",
+      "Menubar": "_folder_sub_components_light",
+      "Select": "_folder_sub_components_light",
+      "Separator": "_folder_sub_components_light",
+      "Slider": "_folder_sub_components_light",
+      "Switch": "_folder_sub_components_light",
+      "Tabs": "_folder_sub_components_light",
+      "Toolbar": "_folder_sub_components_light",
+      "Tooltip": "_folder_sub_components_light",
+      "AspectRadio": "_folder_sub_components_light",
+      "Badge": "_folder_sub_components_light",
+      "Breadcrumb": "_folder_sub_components_light",
+      "Card": "_folder_sub_components_light",
+      "Carousel": "_folder_sub_components_light",
+      "Command": "_folder_sub_components_light",
+      "Drawer": "_folder_sub_components_light",
+      "Form": "_folder_sub_components_light",
+      "Pagination": "_folder_sub_components_light",
+      "Table": "_folder_sub_components_light",
+      "Sonner": "_folder_sub_components_light",
+
       "lib": "_folder_lib_light",
-      "routes": "_folder_routes_light"
+      "actions": "_folder_sub_lib_light",
+      "assets": "_folder_sub_lib_light",
+      "stores": "_folder_sub_lib_light",
+      "transitions": "_folder_sub_lib_light",
+      "types": "_folder_sub_lib_light",
+      "utils": "_folder_sub_lib_light",
+      "validation": "_folder_sub_lib_light",
+      "models": "_folder_sub_lib_light",
+      "paraglide": "_folder_sub_lib_light"
     },
     "folderNamesExpanded": {
+      "routes": "_folder_routes_open_light",
+
       "components": "_folder_components_open_light",
+      "Alert": "_folder_sub_components_open_light",
+      "Icon": "_folder_sub_components_open_light",
+      "Input": "_folder_sub_components_open_light",
+      "Menu": "_folder_sub_components_open_light",
+      "Note": "_folder_sub_components_open_light",
+      "Overlay": "_folder_sub_components_open_light",
+      "Panel": "_folder_sub_components_open_light",
+      "Selector": "_folder_sub_components_open_light",
+      "Toast": "_folder_sub_components_open_light",
+      "Toggle": "_folder_sub_components_open_light",
+      "Accordion": "_folder_sub_components_open_light",
+      "Dialog": "_folder_sub_components_open_light",
+      "AlertDialog": "_folder_sub_components_open_light",
+      "Button": "_folder_sub_components_open_light",
+      "Calendar": "_folder_sub_components_open_light",
+      "Avatar": "_folder_sub_components_open_light",
+      "Checkbox": "_folder_sub_components_open_light",
+      "Collapsible": "_folder_sub_components_open_light",
+      "Combobox": "_folder_sub_components_open_light",
+      "ContextMenu": "_folder_sub_components_open_light",
+      "DatePicker": "_folder_sub_components_open_light",
+      "Dropdown": "_folder_sub_components_open_light",
+      "Label": "_folder_sub_components_open_light",
+      "Link": "_folder_sub_components_open_light",
+      "Menubar": "_folder_sub_components_open_light",
+      "Select": "_folder_sub_components_open_light",
+      "Separator": "_folder_sub_components_open_light",
+      "Slider": "_folder_sub_components_open_light",
+      "Switch": "_folder_sub_components_open_light",
+      "Tabs": "_folder_sub_components_open_light",
+      "Toolbar": "_folder_sub_components_open_light",
+      "Tooltip": "_folder_sub_components_open_light",
+      "AspectRadio": "_folder_sub_components_open_light",
+      "Badge": "_folder_sub_components_open_light",
+      "Breadcrumb": "_folder_sub_components_open_light",
+      "Card": "_folder_sub_components_open_light",
+      "Carousel": "_folder_sub_components_open_light",
+      "Command": "_folder_sub_components_open_light",
+      "Drawer": "_folder_sub_components_open_light",
+      "Form": "_folder_sub_components_open_light",
+      "Pagination": "_folder_sub_components_open_light",
+      "Table": "_folder_sub_components_open_light",
+      "Sonner": "_folder_sub_components_open_light",
+
       "lib": "_folder_lib_open_light",
-      "routes": "_folder_routes_open_light"
+      "actions": "_folder_sub_lib_open_light",
+      "assets": "_folder_sub_lib_open_light",
+      "stores": "_folder_sub_lib_open_light",
+      "transitions": "_folder_sub_lib_open_light",
+      "types": "_folder_sub_lib_open_light",
+      "utils": "_folder_sub_lib_open_light",
+      "validation": "_folder_sub_lib_open_light",
+      "models": "_folder_sub_lib_open_light",
+      "paraglide": "_folder_sub_lib_open_light"
     }
   }
 }
