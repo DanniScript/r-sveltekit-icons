@@ -1,4 +1,4 @@
-# r-icons
+# r-sveltekit-icons
 
 Seti + Folders + SvelteKit
 
@@ -6,7 +6,7 @@ Seti + Folders + SvelteKit
 
 ## How to add my own icon?
 
-1. go to: `<USERPROFILE>.vscode\extensions` and look for the r-icons extension
+1. go to: `<USERPROFILE>.vscode\extensions` and look for the r-sveltekit-icons extension
 2. then add your icon in the correct folder (`\files` for files icons & `\folders` for your folder icons)
 
 In this example we're adding a file icon:

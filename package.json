@@ -1,19 +1,22 @@
 {
-  "name": "r-icons",
-  "version": "0.1.1",
-  "displayName": "r-icons",
-  "publisher": "Rinconx64",
+  "name": "r-sveltekit-icons",
+  "version": "0.0.1",
+  "displayName": "r-sveltekit-icons",
+  "publisher": "DanniScript",
   "description": "Seti + Folders + SvelteKit",
-  "repository": "https://github.com/Rinconx64/r-icons",
+  "repository": "https://github.com/DanniScript/r-sveltekit-icons",
   "license": "MIT",
   "icon": "resorces/extension.png",
   "categories": [
     "Themes"
   ],
-  "scripts": {},
+  "scripts": {
+    "package": "vsce package"
+  },
   "devDependencies": {
     "@types/node": "^18.15.0",
-    "@types/vscode": "^1.76.0"
+    "@types/vscode": "^1.76.0",
+    "@vscode/vsce": "^2.24.0"
   },
   "main": "./src/extension.js",
   "engines": {
@@ -25,9 +28,9 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "r-icons",
-        "label": "r-icons",
-        "path": "./src/r-icons-icon-theme.json"
+        "id": "r-sveltekit-icons",
+        "label": "r-sveltekit-icons",
+        "path": "./src/r-sveltekit-icons-icon-theme.json"
       }
     ]
   }

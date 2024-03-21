@@ -1,8 +1,8 @@
-const fs = require('fs')
-const path = require('path')
-const { generateTheme } = require('./icons/themes')
-const files = require('./icons/files/_fileSchema.json')
-const folders = require('./icons/folders/_folderSchema.json')
+const fs = require("fs")
+const path = require("path")
+const { generateTheme } = require("./icons/themes")
+const files = require("./icons/files/_fileSchema.json")
+const folders = require("./icons/folders/_folderSchema.json")
 
 function activate() {
   const base = generateTheme()
@@ -43,7 +43,7 @@ function activate() {
   }
 
   fs.writeFileSync(
-    path.join(__dirname, './r-icons-icon-theme.json'),
+    path.join(__dirname, "./icon-theme.json"),
     JSON.stringify(finalTheme)
   )
 }
