@@ -1,6 +1,6 @@
 {
   "name": "r-sveltekit-icons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "displayName": "r-sveltekit-icons",
   "publisher": "DanniScript",
   "description": "Seti + Folders + SvelteKit",
@@ -30,7 +30,7 @@
       {
         "id": "r-sveltekit-icons",
         "label": "r-sveltekit-icons",
-        "path": "./src/r-sveltekit-icons-icon-theme.json"
+        "path": "./src/icon-theme.json"
       }
     ]
   }
