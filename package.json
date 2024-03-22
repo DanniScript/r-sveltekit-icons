@@ -1,12 +1,12 @@
 {
   "name": "r-sveltekit-icons",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "displayName": "r-sveltekit-icons",
   "publisher": "DanniScript",
   "description": "Seti + Folders + SvelteKit",
   "repository": "https://github.com/DanniScript/r-sveltekit-icons",
   "license": "MIT",
-  "icon": "resorces/extension.png",
+  "icon": "resources/extension.png",
   "categories": [
     "Themes"
   ],
@@ -16,14 +16,15 @@
   "devDependencies": {
     "@types/node": "^18.15.0",
     "@types/vscode": "^1.76.0",
-    "@vscode/vsce": "^2.24.0"
+    "@vscode/vsce": "^2.24.0",
+    "vsce": "^2.15.0"
   },
   "main": "./src/extension.js",
   "engines": {
     "vscode": "^1.76.0"
   },
   "activationEvents": [
-    "onStartupFinished"
+    "*"
   ],
   "contributes": {
     "iconThemes": [
@@ -32,6 +33,48 @@
         "label": "r-sveltekit-icons",
         "path": "./src/icon-theme.json"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "r-sveltekit-icons",
+      "properties": {
+        "r-sveltekit-icons.componentsFileNames": {
+          "title": "Components File Names",
+          "type": "array",
+          "default": [
+            "Accordion",
+            "Alert",
+            "Avatar",
+            "Badge",
+            "Button",
+            "Calendar",
+            "Card",
+            "Checkbox",
+            "Combobox",
+            "Dialog",
+            "Form",
+            "Input",
+            "Label",
+            "Menu",
+            "Select",
+            "Toast",
+            "Toggle"
+          ]
+        },
+        "r-sveltekit-icons.libFileNames": {
+          "title": "Lib File Names",
+          "type": "array",
+          "default": [
+            "actions",
+            "assets",
+            "stores",
+            "transitions",
+            "types",
+            "utils",
+            "validation",
+            "models"
+          ]
+        }
+      }
+    }
   }
 }
