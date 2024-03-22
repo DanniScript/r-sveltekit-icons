@@ -24,6 +24,7 @@ function generateTheme() {
   const configs = workspace.getConfiguration("r-sveltekit-icons")
   let componentNames = configs.get("componentsFileNames")
   let libNames = configs.get("libFileNames")
+  let disableArrows = configs.get("disableArrows")
 
   for (let name of componentNames) {
     folders.folderNames = {
@@ -64,7 +65,7 @@ function generateTheme() {
   }
 
   const theme = {
-    hidesExplorerArrows: "true",
+    hidesExplorerArrows: disableArrows,
     // Definitions
     fonts: seti.fonts,
     iconDefinitions: {

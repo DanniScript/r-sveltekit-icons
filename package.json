@@ -1,6 +1,6 @@
 {
   "name": "r-sveltekit-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "r-sveltekit-icons",
   "publisher": "DanniScript",
   "description": "Seti + Folders + SvelteKit",
@@ -73,6 +73,12 @@
             "validation",
             "models"
           ]
+        },
+        "r-sveltekit-icons.disableArrows": {
+          "title": "Arrows",
+          "type": "boolean",
+          "default": true,
+          "description": "Disable arrows in folders"
         }
       }
     }
